@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Cards</title>
+    <link rel="stylesheet" href="../styles/flashcard.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Flash Cards</h2>
+        <button id="add-btn">Add Question</button>
+        <div class="hide-container">
+            <button class="close-btn"><span class="iconify" data-icon="ci:off-outline-close" style="color: #db6060;" data-width="30" data-height="30"></span></button>
+            <div class="question-wrapper">
+                <p class="errorp">Cannot Add Empty Values</p>
+                <h3>Question</h3>
+                <textarea name="" id="questionInput" cols="50" rows="5"></textarea>
+            </div>
+            <div class="answer-wrapper">
+                <h3>Answer</h3>
+                <textarea name="" id="answerInput" cols="50" rows="5"></textarea>
+            </div>
+            <button id="save-btn">Save</button>
+            <button id="inner-save-btn">Save</button>
+        </div>
+        <div class="save-container">
+            
+        </div>
+    
+    </div>
+
+
+    <script src="../scripts/flashcard.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+</html>
